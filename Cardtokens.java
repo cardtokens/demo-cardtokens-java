@@ -116,7 +116,7 @@ public class Cardtokens {
                         //
                         // Validate that the status is ACTIVE, which is expected
                         //
-                        if (tokenStatus.status != "ACTIVE") {
+                        if (!tokenStatus.status.equals("ACTIVE")) {
                             throw new Exception("Expected the token to have status ACTIVE");
                         }
 

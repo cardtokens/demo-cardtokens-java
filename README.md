@@ -29,7 +29,7 @@ sudo javac -cp "lib/*" Cardtokens.java CardtokensEncryptor.java CardtokensHttp.j
 
 ### Create Jar
 ```bash
-jar cfm Cardtokens.jar Manifest.txt *.class
+sudo jar cfm Cardtokens.jar manifest.MF *.class
 ```
 
 ### Run
